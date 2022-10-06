@@ -1,8 +1,8 @@
 # Prueba de desempeño y estres
 
-## Rutas
+## Rutas de prueba
 ✨[Prueba de logs con fn de suma 4 + 4](http://localhost:8080/suma/4/4)✨
-✨[Servidor 2](http://localhost:8081/)✨
+
 
 ## Conceptos
 -  Logs realizados con libreria winston (debug y error con una funcion de suma como prueba) registra actividad de la aplicacion => SOPORTE PARA MULTIPLES TRANSPORTES
