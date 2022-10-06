@@ -17,7 +17,7 @@ Seguridad mejorada: Al ocultar el proxy inverso la IP del servidor de origen de 
 ## Chrome inspect
 
 - 1 prender servidor con node --inspect server.js
-- 2 Visitar chrome inspect => chrome://inspect)
+- 2 Visitar chrome inspect => chrome://inspect
 - 3 abrimos el dev tools
 - 4 Se nos abre una nueva ventana, y vamos a la pestaña profiler. Allí, cliqueo en el botón de start.
 - 5 Una vez hecho esto, puedo volver a la consola y correr nuevamente los comandos del test de carga artillery que mencionamos anteriormente. Para los procesos   
