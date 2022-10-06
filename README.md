@@ -4,11 +4,22 @@
 ✨[Prueba de logs con fn de suma 4 + 4](http://localhost:8080/suma/4/4)✨
 
 
-## Conceptos
+## LOGS
 -  Logs realizados con libreria winston (debug y error con una funcion de suma como prueba) registra actividad de la aplicacion => SOPORTE PARA MULTIPLES TRANSPORTES
--  Artillery es una libreria nativa de node, para realizar pruebas de carga, simula procesos, como numeros de usuarios y peticiones que buscan comprobar el comprotamiento del server bajo ESTRES
 
-## Chrome inspect
+
+
+## ARTILLERY 
+- Artillery es una libreria nativa de node, para realizar pruebas de carga, simula procesos, como numeros de usuarios y peticiones que buscan comprobar el comprotamiento del server bajo ESTRES
+- Comando de consola => artillery quick --count 50 -n 40 http://localhost:8080?max=10000 > resultFork.txt   
+(simula 50 usuarios que envian 40 peticiones) y genera un archivo que puedo nombrar como quiera con toda la estadistica 
+- Sin profiling mide que tanta carga soporta el servidor y cuanto tarda en procesarlo
+
+## PROFILING
+- Es la investigación del comportamiento de un programa usando información reunida desde el análisis dinámico del mismo.
+- - El objetivo es averiguar el tiempo dedicado a la ejecución de diferentes partes del programa para detectar los puntos problemáticos y las áreas donde sea posible llevar a cabo una optimización del rendimiento (ya sea en velocidad o en consumo de recursos).​
+
+## CHROME INSPECT
 
 - 1 prender servidor con node --inspect server.js
 - 2 Visitar chrome inspect => chrome://inspect
