@@ -1,7 +1,7 @@
 # Prueba de desempeño y estres
 
 ## Rutas
-✨[Prueba de logs con fn de suma](http://localhost:8080/)✨
+✨[Prueba de logs con fn de suma 1/2](http://localhost:8080/suma/1/2)✨
 ✨[Servidor 2](http://localhost:8081/)✨
 
 ## Conceptos
