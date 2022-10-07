@@ -37,8 +37,8 @@ Con esto, se nos abre la vista del código, junto con el tiempo en milisegundos 
 Entonces podemos ver los milisegundos de cada función y ver las que están demorando la ejecución de la aplicación.
 
 ## Funcionalidad
-> -src_logs/app.js => funcion de suma por params para generar logs
-> -src_artillery/app.js => funcion de numeros primos para evaluar con artillery su comportamiento en modo fork y se puede pasar por argumento modo cluster
+> src_logs/app.js => funcion de suma por params para generar logs <
+> src_artillery/app.js => funcion de numeros primos para evaluar con artillery su comportamiento en modo fork y se puede pasar por argumento modo cluster
 
 ## Dependencias
 - Winston: npm install winston
