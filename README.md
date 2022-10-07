@@ -16,7 +16,7 @@
 - Sin profiling mide que tanta carga soporta el servidor y cuanto tarda en procesarlo
 
 ## PROFILING
-- Es la investigación del comportamiento de un programa usando información reunida desde el análisis dinámico del mismo.
+>  Es la investigación del comportamiento de un programa usando información reunida desde el análisis dinámico del mismo.
 -  El objetivo es averiguar el tiempo dedicado a la ejecución de diferentes partes del programa para detectar los puntos problemáticos y las áreas donde sea posible llevar a cabo una optimización del rendimiento (ya sea en velocidad o en consumo de recursos).
 
 ## CHROME INSPECT
