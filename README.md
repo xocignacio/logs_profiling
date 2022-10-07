@@ -29,14 +29,14 @@
 ## PROFILING
 >  Es la investigación del comportamiento de un programa usando información reunida desde el análisis dinámico del mismo.
 -  El objetivo es averiguar el tiempo dedicado a la ejecución de diferentes partes del programa para detectar los puntos problemáticos y las áreas donde sea posible llevar a cabo una optimización del rendimiento (ya sea en velocidad o en consumo de recursos).
-1 - prender servidor en modo profiler :
+- 1 prender servidor en modo profiler :
 ```sh
  node --prof server.js
 
 ```
 - esto genera un archivo insolate-000,que esta encriptado,por lo cual le cambio el nombre al archivo
 para decodificarlo y que sea mas facil de leer la informacion 
-2- Modificar archivo 
+- 2 Modificar archivo 
 
 ```sh
 node --prof-process "nombre archivo" > resul_prof-final
