@@ -10,7 +10,7 @@
 
 
 ## ARTILLERY 
-- Artillery es una libreria nativa de node, para realizar pruebas de carga, simula procesos, como numeros de usuarios y peticiones que buscan comprobar el comprotamiento del server bajo ESTRES
+> Artillery es una libreria nativa de node, para realizar pruebas de carga, simula procesos, como numeros de usuarios y peticiones que buscan comprobar el comprotamiento del server bajo ESTRES
 - Comando de consola => artillery quick --count 50 -n 40 http://localhost:8080?max=10000 > resultFork.txt   
 (simula 50 usuarios que envian 40 peticiones) y genera un archivo que puedo nombrar como quiera con toda la estadistica 
 - Sin profiling mide que tanta carga soporta el servidor y cuanto tarda en procesarlo
