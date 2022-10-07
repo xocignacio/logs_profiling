@@ -20,8 +20,11 @@
 (simula 50 usuarios que envian 40 peticiones) y genera un archivo que puedo nombrar como quiera con toda la estadistica 
 - Sin profiling mide que tanta carga soporta el servidor y cuanto tarda en procesarlo
 - Server corriendo en modo fork en localhost8080 aunque puedo pasar por argumento otra direccion como 8081 y el metodo CLUSTER para tener 2 diferentes servers y comparar sus rendimientos bajo una prueba de estres
-> src_artillery/app.js => funcion de numeros primos para evaluar con artillery su comportamiento en modo fork y se puede pasar por argumento modo cluster
 
+```sh
+  src_artillery/app.js => funcion de numeros primos para evaluar con artillery su comportamiento en modo fork y se puede pasar por argumento modo cluster
+
+```
 
 ## PROFILING
 >  Es la investigación del comportamiento de un programa usando información reunida desde el análisis dinámico del mismo.
