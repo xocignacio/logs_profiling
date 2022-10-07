@@ -29,33 +29,33 @@
 ## PROFILING
 >  Es la investigación del comportamiento de un programa usando información reunida desde el análisis dinámico del mismo.
 -  El objetivo es averiguar el tiempo dedicado a la ejecución de diferentes partes del programa para detectar los puntos problemáticos y las áreas donde sea posible llevar a cabo una optimización del rendimiento (ya sea en velocidad o en consumo de recursos).
-- 1 prender servidor en modo profiler :
+- 1) prender servidor en modo profiler :
 ```sh
  node --prof server.js
 
 ```
 - esto genera un archivo insolate-000,que esta encriptado,por lo cual le cambio el nombre al archivo
 para decodificarlo y que sea mas facil de leer la informacion 
-- 2 Modificar archivo 
+- 2) Modificar archivo 
 
 ```sh
 node --prof-process "nombre archivo" > resul_prof-final
 
 ```
 
-node --prof-process "nombre archivo" > resul_prof-final
+
 
 ## CHROME INSPECT
 
-- 1 prender servidor con node --inspect server.js
-- 2 Visitar chrome inspect => chrome://inspect
-- 3 abrimos el dev tools
-- 4 Se nos abre una nueva ventana, y vamos a la pestaña profiler. Allí, cliqueo en el botón de start.
-- 5 Una vez hecho esto, puedo volver a la consola y correr nuevamente los comandos del test de carga artillery que mencionamos anteriormente. Para los procesos   
+- 1) prender servidor con node --inspect server.js
+- 2) Visitar chrome inspect => chrome://inspect
+- 3) abrimos el dev tools
+- 4) Se nos abre una nueva ventana, y vamos a la pestaña profiler. Allí, cliqueo en el botón de start.
+- 5) Una vez hecho esto, puedo volver a la consola y correr nuevamente los comandos del test de carga artillery que mencionamos anteriormente. Para los procesos   
   bloqueante y no bloqueante.
   pero sin el input salida de txt ya que lo leo en el browser
-- 6 Una vez que finaliza, ponemos el botón stop en el navegador, y nos muestra algo como esto, con la misma información que los archivos vistos anteriormente
-- 7 Si vamos a “run” y luego desplegamos también el proceso que se nos abre, podemos ver, mirando a la derecha que en el archivo server.js línea 32 tenemos un proceso bloqueantes.
+- 6) Una vez que finaliza, ponemos el botón stop en el navegador, y nos muestra algo como esto, con la misma información que los archivos vistos anteriormente
+- 7) Si vamos a “run” y luego desplegamos también el proceso que se nos abre, podemos ver, mirando a la derecha que en el archivo server.js línea 32 tenemos un proceso bloqueantes.
 Podemos entonces hacer click sobre eso (server.js:32).
 Con esto, se nos abre la vista del código, junto con el tiempo en milisegundos que demoró esa función.
 Entonces podemos ver los milisegundos de cada función y ver las que están demorando la ejecución de la aplicación.
