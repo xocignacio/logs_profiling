@@ -5,7 +5,7 @@
 
 
 ## LOGS
--  Logs realizados con libreria winston (debug y error con una funcion de suma como prueba) registra actividad de la aplicacion => SOPORTE PARA MULTIPLES TRANSPORTES
+-  Logs realizados con libreria winston (debug y error con una funcion de suma como prueba) registra actividad de la aplicacion => soporte para multiples transportes
 
 
 
@@ -17,7 +17,7 @@
 
 ## PROFILING
 - Es la investigación del comportamiento de un programa usando información reunida desde el análisis dinámico del mismo.
-- - El objetivo es averiguar el tiempo dedicado a la ejecución de diferentes partes del programa para detectar los puntos problemáticos y las áreas donde sea posible llevar a cabo una optimización del rendimiento (ya sea en velocidad o en consumo de recursos).​
+-  El objetivo es averiguar el tiempo dedicado a la ejecución de diferentes partes del programa para detectar los puntos problemáticos y las áreas donde sea posible llevar a cabo una optimización del rendimiento (ya sea en velocidad o en consumo de recursos).
 
 ## CHROME INSPECT
 
@@ -36,5 +36,5 @@ Entonces podemos ver los milisegundos de cada función y ver las que están demo
 
 
 ## Dependencias
-- winston: npm install winston
-- armery: npm install -g artillery
+- Winston: npm install winston
+- Artillery: npm install -g artillery
