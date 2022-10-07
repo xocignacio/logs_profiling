@@ -6,7 +6,12 @@
 
 ## LOGS
 -  Logs realizados con libreria winston (debug y error con una funcion de suma como prueba) registra actividad de la aplicacion => soporte para multiples transportes
-> src_logs/app.js => funcion de suma por params para generar logs 
+ src_logs/app.js => funcion de suma por params para generar logs 
+
+```sh
+ src_logs/app.js => funcion de suma por params para generar logs 
+
+```
 
 
 ## ARTILLERY 
