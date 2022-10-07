@@ -6,7 +6,7 @@
 
 ## LOGS
 -  Logs realizados con libreria winston (debug y error con una funcion de suma como prueba) registra actividad de la aplicacion => soporte para multiples transportes
-
+> src_logs/app.js => funcion de suma por params para generar logs 
 
 
 ## ARTILLERY 
@@ -15,6 +15,7 @@
 (simula 50 usuarios que envian 40 peticiones) y genera un archivo que puedo nombrar como quiera con toda la estadistica 
 - Sin profiling mide que tanta carga soporta el servidor y cuanto tarda en procesarlo
 - Server corriendo en modo fork en localhost8080 aunque puedo pasar por argumento otra direccion como 8081 y el metodo CLUSTER para tener 2 diferentes servers y comparar sus rendimientos bajo una prueba de estres
+> src_artillery/app.js => funcion de numeros primos para evaluar con artillery su comportamiento en modo fork y se puede pasar por argumento modo cluster
 
 
 ## PROFILING
@@ -36,9 +37,6 @@ Podemos entonces hacer click sobre eso (server.js:32).
 Con esto, se nos abre la vista del código, junto con el tiempo en milisegundos que demoró esa función.
 Entonces podemos ver los milisegundos de cada función y ver las que están demorando la ejecución de la aplicación.
 
-## Funcionalidad
-> src_logs/app.js => funcion de suma por params para generar logs <
-> src_artillery/app.js => funcion de numeros primos para evaluar con artillery su comportamiento en modo fork y se puede pasar por argumento modo cluster
 
 ## Dependencias
 - Winston: npm install winston
