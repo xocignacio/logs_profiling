@@ -8,7 +8,7 @@ app.use(logger());
 
 app.get('/',(req,res)=>{
     req.logger.error("Hola soy un error");
-    res.send("ok");
+    res.send("Bienvenidos");
 })
 
 app.get('/suma/:num1/:num2',(req,res)=>{
@@ -27,7 +27,7 @@ app.get('/suma/:num1/:num2',(req,res)=>{
     req.logger.debug('Operando números');
     let result = parsedNumber1 + parsedNumber2;
     req.logger.info(`Operación realizada con resultado ${result}`)
-    res.send(`El resultado es ${result}`)
+    res.send(`El resultado de la suma es ${result}`)
  })
 
-app.listen(8080,()=>console.log("listening"))
+app.listen(8080,()=>console.log("✔ listening, visit port 8080"))

@@ -1,0 +1,14 @@
+{"level":"error","message":"Hola soy un error"}
+{"level":"error","message":"Hola soy un error"}
+{"level":"verbose","message":"Convirtiendo a number"}
+{"level":"debug","message":"Operando números"}
+{"level":"info","message":"Operación realizada con resultado 3"}
+{"level":"verbose","message":"Convirtiendo a number"}
+{"level":"debug","message":"Operando números"}
+{"level":"info","message":"Operación realizada con resultado 8"}
+{"level":"verbose","message":"Convirtiendo a number"}
+{"level":"debug","message":"Operando números"}
+{"level":"info","message":"Operación realizada con resultado 3"}
+{"level":"verbose","message":"Convirtiendo a number"}
+{"level":"debug","message":"Operando números"}
+{"level":"info","message":"Operación realizada con resultado 3"}
